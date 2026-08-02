@@ -1,17 +1,39 @@
 aid: skyryse
 name: Skyryse
-description: 'Skyryse is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: 'Skyryse is an El Segundo, California aviation technology company founded
+  in 2016 by Mark Groden and Mitch Adler that builds SkyOS, a universal operating system
+  for flight. SkyOS is a retrofittable hardware and software stack that replaces complex
+  mechanical flight controls with a triply redundant, software-driven system, letting
+  a pilot fly an airplane or helicopter with a single control stick and touchscreens.
+  The platform delivers simplified flight controls, inherent stability, automated maneuvers,
+  emergency autorotation, automated zero-visibility landing, envelope protection, and
+  optionally piloted capability. Skyryse also produces Skyryse One, a SkyOS-powered production
+  helicopter, and Skylar, a universal AI flight assistant. Customers and partners span
+  the U.S. military, law enforcement, Cal Fire, emergency medical services, disaster
+  response, and private operators. In February 2026 the company raised over $300 million
+  in Series C funding at a $1.15 billion post-money valuation, co-led by Autopilot and
+  Fidelity Investments. Skyryse operates as a certified-avionics and aircraft manufacturer
+  and does not publish a public developer API, SDK, or developer portal.'
+image: https://cdn.prod.website-files.com/6660a66a69426ff7d3108c95/67d4fa088169d95d7acb2f77_fc37eb3bd38be3249001a3dfda8f2c8e_Skyryse-One_interior-03.jpg
 url: https://raw.githubusercontent.com/api-evangelist/skyryse/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+x-source-url: https://forgeglobal.com/skyryse_stock/
+x-tier: profile
+x-tier-reason: no-public-api-surface
 specificationVersion: '0.20'
 created: '2026-08-02'
 modified: '2026-08-02'
 tags:
 - Company
+- Aviation
+- Aerospace
+- Flight Automation
+- Avionics
+- Autonomy
+- Helicopters
+- Defense
+- Transportation
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +41,30 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/skyryse-domain-security.yml
+- type: LLMsTxt
+  url: llms/skyryse-llms.txt
 - type: Website
-  url: https://forgeglobal.com/skyryse_stock/
+  url: https://www.skyryse.com/
+- type: About
+  url: https://www.skyryse.com/about
+- type: Blog
+  url: https://www.skyryse.com/resources
+- type: News
+  url: https://www.skyryse.com/news
+- type: GitHubOrganization
+  url: https://github.com/Skyryse
+- type: Support
+  url: https://www.skyryse.com/contact-us
+- type: TermsOfService
+  url: https://www.skyryse.com/terms
+- type: PrivacyPolicy
+  url: https://www.skyryse.com/privacy
+- type: Careers
+  url: https://www.skyryse.com/careers
+x-enrichment:
+  date: '2026-08-02'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1

@@ -1,0 +1,40 @@
+# Skyryse
+
+> Skyryse is an El Segundo, California aviation technology company founded in 2016 by Mark Groden and Mitch Adler. It builds SkyOS, a universal operating system for flight — a retrofittable hardware and software stack that replaces mechanical flight controls with a triply redundant, software-driven system, letting a pilot fly an airplane or helicopter with a single control stick and touchscreens. Skyryse also produces Skyryse One, a SkyOS-powered production helicopter, and Skylar, a universal AI flight assistant. In February 2026 the company raised over $300 million in Series C funding at a $1.15 billion post-money valuation.
+
+## API surface
+
+Skyryse publishes **no public developer API**. As of 2026-08-02 there is no developer portal, no API documentation, no OpenAPI/AsyncAPI/GraphQL contract, no MCP server, no A2A agent card, and no first-party SDK on npm, PyPI, RubyGems, crates.io or any other public registry. The company's GitHub organization is verified but has zero public repositories. Its software ships as certified avionics inside aircraft, not as a network-callable service.
+
+## Products
+
+- [SkyOS](https://www.skyryse.com/skyos): Universal operating system for flight — simplified controls, inherent stability, automated maneuvers, emergency autorotation, automated zero-visibility landing, envelope protection, optionally piloted capability.
+- [Skyryse One](https://www.skyryse.com/skyryse-one): SkyOS-powered production helicopter with automated engine start, set-down, autorotation and stable hover.
+- [Civil Aircraft](https://www.skyryse.com/aircraft): SkyOS retrofit program for civil airplanes and helicopters.
+- [Defense Aircraft](https://www.skyryse.com/defense): SkyOS for military platforms, including the first flight of a Black Hawk under SkyOS.
+
+## Company
+
+- [Home](https://www.skyryse.com/)
+- [About](https://www.skyryse.com/about)
+- [News](https://www.skyryse.com/news)
+- [Resources](https://www.skyryse.com/resources)
+- [Careers](https://www.skyryse.com/careers)
+- [Contact](https://www.skyryse.com/contact-us)
+- [GitHub organization](https://github.com/Skyryse): Verified, zero public repositories.
+
+## Legal
+
+- [Terms](https://www.skyryse.com/terms)
+- [Privacy Policy](https://www.skyryse.com/privacy)
+
+## API Evangelist artifacts
+
+- [apis.yml](https://raw.githubusercontent.com/api-evangelist/skyryse/refs/heads/main/apis.yml): APIs.json 0.20 provider index.
+- [Domain security](https://raw.githubusercontent.com/api-evangelist/skyryse/refs/heads/main/security/skyryse-domain-security.yml): Probed TLS/HSTS/DNSSEC/CAA/SPF/DMARC posture.
+- [Well-known probe](https://raw.githubusercontent.com/api-evangelist/skyryse/refs/heads/main/well-known/skyryse-well-known.yml): Recorded negative result — no /.well-known/ documents published.
+
+---
+generated: 2026-08-02
+method: generated
+source: apis.yml + www.skyryse.com

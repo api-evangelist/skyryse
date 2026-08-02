@@ -1,0 +1,57 @@
+generated: '2026-08-02'
+method: probed
+source: live HTTPS probes of every Skyryse host found in apis.yml
+note: >-
+  No /.well-known/ document is published on any Skyryse host. Recorded here as a
+  negative probe result so re-runs do not re-probe blindly. No WellKnown or
+  SecurityTxt pointer is wired into apis.yml because nothing was found.
+hosts:
+- host: https://www.skyryse.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /.well-known/agent-card.json
+    status: 404
+  - path: /.well-known/agent.json
+    status: 404
+- host: https://skyryse.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /.well-known/agent-card.json
+    status: 404
+  - path: /.well-known/agent.json
+    status: 404
+unresolved_hosts:
+- host: api.skyryse.com
+  status: NXDOMAIN
+- host: docs.skyryse.com
+  status: NXDOMAIN
+- host: developer.skyryse.com
+  status: NXDOMAIN
+- host: portal.skyryse.com
+  status: NXDOMAIN
+- host: status.skyryse.com
+  status: NXDOMAIN
+- host: trust.skyryse.com
+  status: NXDOMAIN
+- host: security.skyryse.com
+  status: NXDOMAIN
+- host: mcp.skyryse.com
+  status: NXDOMAIN
