@@ -21,7 +21,7 @@ x-source: harvest:secondary-market
 x-source-url: https://forgeglobal.com/skyryse_stock/
 x-tier: profile
 x-tier-reason: no-public-api-surface
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-08-02'
 modified: '2026-08-02'
 tags:
