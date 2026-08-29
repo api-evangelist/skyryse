@@ -14,6 +14,17 @@ description: 'Skyryse is an El Segundo, California aviation technology company f
   in Series C funding at a $1.15 billion post-money valuation, co-led by Autopilot and
   Fidelity Investments. Skyryse operates as a certified-avionics and aircraft manufacturer
   and does not publish a public developer API, SDK, or developer portal.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 image: https://cdn.prod.website-files.com/6660a66a69426ff7d3108c95/67d4fa088169d95d7acb2f77_fc37eb3bd38be3249001a3dfda8f2c8e_Skyryse-One_interior-03.jpg
 url: https://raw.githubusercontent.com/api-evangelist/skyryse/refs/heads/main/apis.yml
 x-type: company
